@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    name: ststest
+    url: jdbc:mysql://localhost:3306/ststest
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 6081
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
